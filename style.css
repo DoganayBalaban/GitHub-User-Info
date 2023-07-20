@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 1px);
+}
+#maincard {
+  border: 2px solid black;
+  position: absolute;
+  padding: 10px;
+  width: 75vh;
+  height: 75vh;
+  border-radius: 10px;
+  text-align: center;
+}
+#text {
+  margin-top: 40px;
+  width: 200px;
+  height: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+#btn {
+  height: 30px;
+  background: black;
+  color: white;
+  width: 40px;
+  border-radius: 5px;
+}
+li {
+  list-style: none;
+  margin-top: 5px;
+}
